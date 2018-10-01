@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./style.css">
+
+
+  <h1 id = "title">Interest Rate Calculator</h1>
+<div class="container">
+ <div class = "wrap">
+   <label>% INTEREST</label>
+   <select class = 'form-control' style = "width: 10%" name="percentage" id= "percentage"></select>
+
+   <label> $ AMOUNT</label>
+   <input type="number" min = '1' max = '999999999' name = "amount" id = "amount" class = "form-control" style = "width: 10%">
+   <label for=""># OF PAYMENTS</label>
+   <input type = "number" min = '1' max = '999' id = "time" class = "form-control" style = "width: 10%">
+    <button onClick = "onClick()" target = "_top" class = 'btn btn-light'>CALCULATE!</button>  
+   </div>
+ </div>
+   
+  
+ <div id="result">
+   <p id = "show"></p>
+ </div>
+  <script type="text/javascript" src = "./script.js"></script>
